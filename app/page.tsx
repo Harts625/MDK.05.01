@@ -1,6 +1,3 @@
-import { title } from 'process';
-import React from 'react';
-
 export default function HomePage() {
   return (
     <main className='min-h-screen bg-white font-sans text-gray-poo'>
@@ -42,9 +39,32 @@ export default function HomePage() {
             <div className='flex flex-wrap gap-4'>
               <div className='bg-white/10 p-4 rounded-lg backdrop-blur-sm'>
                 <div className='font-bold text-xl'>5000+</div>
+                <div className='textt-xs text-gray-300'>заказов в день</div>
+              </div>
+              <div className='bg-white/10 p-4 rounded-lg backdrop-blur-sm'>
+                <div className='font-bold text-xl'>99.8%</div>
                 <div className='textt-xs text-gray-300'>точность сборки</div>
               </div>
+              <div className='bg-white/10 p-4 rounded-lg backdrop-blur-sm'>
+                <div className='font-bold text-xl'>FBO/FBS</div>
+                <div className='textt-xs text-gray-300'>все маркетплейсы</div>
+              </div>
             </div>
+          </div> 
+
+          <div className="hidden md: flex bg-gray-300/20 rounded-xl mih-h-[300px] items-center justify-center border-gray-500/30">
+            <span className="text-gray-400 text-sm">Здесь автоматический указатель песни</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="max-w-7x1 mx-auto px-4">
+          <div className="text-cener mb-12">
+            <h2 className="text-2x1 md:text-3x1 font-bold mb-4">Как начать работать с нами</h2>
+            <p className="text-gray-600 max-2-2xl mx-auto">
+              Подключение занимает всего несколько дней. Все процессы максимально автоматизированны.
+            </p>
           </div>
         </div>
       </section>
